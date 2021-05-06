@@ -121,6 +121,7 @@ public class AccessController extends MicroController {
 		if (nbtn == HIGH) {
 
 			netmode = 1 - netmode; // toggle network status
+			System.out.println("netmode is: " + netmode);
 
 			if (netmode == 1) {
 				digitalWrite(Wiring.BLUELED, HIGH);
