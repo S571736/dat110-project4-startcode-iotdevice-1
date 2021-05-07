@@ -38,7 +38,7 @@ public class RestClient {
             e.printStackTrace();
         }
         // TODO: implement a HTTP POST on the service to post the message
-        // TODO: SJEKK - Meget sannsynlig at dette er feil
+
     }
 
     public AccessCode doGetAccessCode() {
@@ -64,7 +64,7 @@ public class RestClient {
         }
 
         // TODO: implement a HTTP GET on the service to get current access code
-        // TODO: SJEKK - Meget sannsynlig at dette er feil
+
 
         return code;
     }
